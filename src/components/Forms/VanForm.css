@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  .input-group-responsive {
+    flex-direction: column;
+  }
+  .input-responsive {
+    text-align: center;
+    margin-block: 0.5rem;
+  }
+  .input-responsive label,
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+.profile{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap: 70px;
+
+}
+.MPtitle{
+    font-weight: 600;
+    font-size: 21px;
+    margin: 10px 0;
+}
+.profileCard{
+    padding: 10px 20px;
+} 
+
+.img{
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, #63F08280, #00A3FF99);
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.personRel{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.profileName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.edateTheName{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 6px;
+}
+.edateTheName:hover{
+    background-color: #eee;
+}
+.profileTitleandJoined{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    
+}
+.titlePS{
+    background-color: black;
+    color: white; 
+    padding: 3px 13px;
+    border-radius: 24px;
+    font-size: 13px;
+}

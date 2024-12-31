@@ -1,0 +1,72 @@
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: relative;
+}
+.pageHeader .title{
+    font-weight: 400; 
+     font-size: 20px; 
+     color: #000; 
+     margin-bottom: 0;
+}
+.headerInfo{
+    display: flex;
+    width: 100%;
+    display: flex
+;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.userHeaderIcon{
+    background-color: #898A8D0F;
+    padding: 7px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+.userHeaderIcon::after{
+    content: "";
+    position: absolute;
+    background-color: #2CC050;
+    top: 0;
+    right: 0;
+    transform: translate(0,50%);
+    width: 7px;
+    height:7px;
+    border-radius: 50%;
+}
+.headerInfo  .userImag{
+    width: 55px;
+    margin: 0 10px;
+}
+.headerInfo  .userImag img{
+    width: 100%;
+    border-radius: 50%;
+}   
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px 0 10px;
+}
+.userInfo-username{
+    font-weight: 500;
+}
+.userInfo-userRow{
+    font-weight: 300;
+}
+.m-left-20{
+    margin: 20px;
+}
+.breadcrumb-header{
+    font-size: 15px !important;
+    flex-wrap: nowrap !important;
+    margin-bottom: 0 !important;
+    width: max-content;
+}
+.cursor{
+    cursor: pointer;
+}

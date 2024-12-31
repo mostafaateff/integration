@@ -1,0 +1,26 @@
+
+.details-filter button {
+  background-color: #5353532d;
+}
+
+.details-filter button:hover{
+  background-color: black;
+  color: white;
+}
+
+.gas-icon {
+  text-shadow: 0 0 10px gold;
+}
+
+.tire-icon {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+}
+
+.battery-icon {
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.555);
+}
+
+.car-icon {
+        text-shadow: 0 0 10px rgba(0, 0, 255, 0.521);
+
+}

@@ -1,0 +1,153 @@
+.staff-hader,
+.staff-header_edete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.staff-header_title {
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 26px;
+}
+.staff-header_edete-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+.staff-header_edete-icon:hover {
+  background: #f8f8f8;
+}
+.me-15 {
+  margin-right: 15px;
+}
+.mainBorder {
+  border-radius: 10px;
+  border: 1px solid #c6c6c6;
+}
+.staff-cards {
+  padding: 30px !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.staff-cards-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.staff-cards-card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.staff-cards-card_jobT {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+.staff-cards-card_rank {
+  display: flex;
+}
+.staff-cards-card_staffInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.staff-cards-card_staffInfo_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.staff-cards-card_staffInfo_img > img {
+  width: 85%;
+}
+.staff-cards-card_staffInfo_name {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.staff-cards-card_staffDate_join {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.front {
+  font-weight: 400;
+  font-size: 15px;
+  color: #535353;
+}
+.data {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+/* filterBy */
+
+.filterBy-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+  align-items: center;
+  & .resetAll {
+    color: #535353;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  & .filterBy_theTitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+.range-from-to {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 12px;
+
+  & .range-result {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+.back {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  span {
+    font-weight: 600;
+  }
+}
+.form-check {
+  margin-bottom: 10px;
+}
+.filterBy-Sub {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #000;
+  color: white;
+  font-size: 18px;
+  border-radius: 7px;
+  width: 100%;
+}
+.rotat180 {
+  transform: rotate(180deg);
+}
+
+/* filterBy */

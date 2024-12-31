@@ -1,0 +1,1 @@
+export const  Domain = 'https://estbn.com/MobileAppBackend/public/api/';
